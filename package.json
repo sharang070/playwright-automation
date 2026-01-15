@@ -1,4 +1,3 @@
-
 {
   "name": "applitools-demo-playwright",
   "version": "1.0.0",
@@ -9,9 +8,10 @@
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
     "codegen": "playwright codegen https://demo.applitools.com/app.html#",
-    "changed": "playwright test --only-changed" 
+    "changed": "playwright test --only-changed"
   },
   "devDependencies": {
-    "@playwright/test": "^1.46.0"
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.8"
   }
 }
